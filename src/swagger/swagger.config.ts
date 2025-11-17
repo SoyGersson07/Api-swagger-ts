@@ -59,8 +59,8 @@ export const swaggerDocument = {
               schema: {
                 type: "object",
                 properties: {
-                  name: { type: "string", example: "Jonathan Rosas" },
-                  email: { type: "string", example: "jonathan@example.com" },
+                  name: { type: "string", example: "Gersson Valencia" },
+                  email: { type: "string", example: "gersson@example.com" },
                   role: { type: "string", example: "admin" },
                 },
                 required: ["name", "email"],
@@ -132,10 +132,10 @@ export const swaggerDocument = {
               schema: {
                 type: "object",
                 properties: {
-                  name: { type: "string", example: "Jonathan Rosas Updated" },
+                  name: { type: "string", example: "Gersson Valencia Updated" },
                   email: {
                     type: "string",
-                    example: "jonathan.new@example.com",
+                    example: "gersson.new@example.com",
                   },
                   role: { type: "string", example: "super-admin" },
                 },
@@ -513,12 +513,12 @@ export const swaggerDocument = {
           name: {
             type: "string",
             description: "Nombre de la persona",
-            example: "Jonathan Rosas",
+            example: "Gersson Valencia",
           },
           email: {
             type: "string",
             description: "Email de la persona",
-            example: "jonathan@example.com",
+            example: "gersson@example.com",
           },
           role: {
             type: "string",
